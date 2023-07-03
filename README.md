@@ -20,6 +20,10 @@ The second function first checks if the user's choice is a file or a folder. If 
 
 Sending a file to the user marks the end of the drive function.
 
+### Hosting
+
+Currently, the script is hosted on a free hosting service. This may prove difficult in the future, in case the bot will start receiving heavier traffic and overload the virtual CPU.
+
 ## How can I contribute?
 
 I am always looking to add more usefull functions to the bot. Feel free to clone this repository to your machine and expirement with it. If you managed to create additional functions, contact me and we can work together on implementing them.
