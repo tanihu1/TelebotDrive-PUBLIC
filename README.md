@@ -4,7 +4,7 @@
 
 ### Pre-Prepared Answers
 
-The bot has multiple pre-prepared answers that it can provide, such as relevant contact information, public transport inside the campus, and more. These answers are set to be sent when the corresponding command is recived and the code behind it is simple.
+The bot has multiple pre-prepared answers that it can provide, such as relevant contact information, public transport inside the campus, and more. These answers are set to be sent when the corresponding command is received and the code behind it is simple.
 
 Currently, the bot has one functionality that is worth explaining in more detail: accessing the drive and sending files based on user request. We'll cover that on the next part.
 
