@@ -1,4 +1,4 @@
-# The Offical TelegramBot of 2023 CS Class!
+# The Offical TelegramBot of 2023 Bar-Ilan CS Class!
 
 ## A quick rundown of what it can do
 
@@ -20,11 +20,27 @@ The second function first checks if the user's choice is a file or a folder. If 
 
 Sending a file to the user marks the end of the drive function.
 
-### Hosting
+**In this instance of the bot, the drive function is disabled.** This is beacause in order for the drive function to work, a google service account credentials must exist in the working directory. If you want to test or play around with the drive function, feel free to contact me and I'll give you a credentials file.
 
-Currently, the script is hosted on a free hosting service. This may prove difficult in the future, in case the bot will start receiving heavier traffic and overload the virtual CPU.
+## Hosting
+
+Currently, the script is hosted on a free hosting service. This may prove difficult in the future, in case the bot will start receiving heavier traffic or if threading will become necessary.
+
+## Webhook functionality
+
+Webhooks essentially allow the bot to wait for updates from telegram, instead of constantly checking for new messages.
+This allows the app to use less resources in the hosting service.
 
 ## How can I contribute?
 
 I am always looking to add more usefull functions to the bot. Feel free to clone this repository to your machine and expirement with it. If you managed to create additional functions, contact me and we can work together on implementing them.
 **Be aware that in this build, no API keys are present and the required credentials.json file does not exist as well, thus running the main file will result in an error. If you want to test the file for development purposees, I can supply you with a testing bot API key.**
+
+### Which file should I work on?
+
+As you may have noticed, there are to instances of the bot in the repository: **"bot_with_flask"**, and **"bot_with_polling"**.
+As far as functionality goes, they are the same. The key difference is that the flask bot as webhook logic implemented, and the polling bot has polling logic implemented.
+
+If you want to test the bot on your local machine, you should work with the **polling bot**, since you can just fire it up with an API key and it will start responding.
+
+If you want to test/develop some kind of web functionality, you should work with the **flask bot**. Be aware that for the flask bot to work, a URL that can receive POST requests must be set up. I recommend using ngrok for that.
