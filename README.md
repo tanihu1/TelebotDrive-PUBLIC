@@ -33,7 +33,7 @@ Currently, the script is hosted on a free hosting service. This may prove diffic
 
 ## Webhook functionality
 Webhooks essentially allow the bot to wait for updates from telegram, instead of constantly checking for new messages.
-This allows the app to use less resources in the hosting service.
+This allows the app to use less resources in the hosting service and bypass some limitations raised by the free plan of the hosting service.
 
 ## How can I contribute?
 I am always looking to add more usefull functions to the bot. Feel free to clone this repository to your machine and expirement with it. If you managed to create additional functions, contact me and we can work together on implementing them.
