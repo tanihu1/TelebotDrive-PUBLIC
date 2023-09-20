@@ -18,11 +18,11 @@ The second function first checks if the user's choice is a file or a folder. If 
 Sending a file to the user marks the end of the drive function.
 
 ### Drive function diagram
-![handle_drive.py](https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fworkspaces%2FIB3s5wNkgKm7chnP27Ld%2FHvvqJbF432aCRiurlpPoqLyf2qh1%2F---figure---Wj5OaluCRJwW_bNKUkunS---figure---ROWU5DgLV8JawNqKSj0S1g.svg?alt=media&token=00adeb59-e716-4616-98be-bd54cc6e3cdf "handle_drive.py")
+![handle_drive.py](https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fworkspaces%2FIB3s5wNkgKm7chnP27Ld%2FHvvqJbF432aCRiurlpPoqLyf2qh1%2F---figure---kGEwLRIuhRwiboqeZNV3g---figure---ROWU5DgLV8JawNqKSj0S1g.svg?alt=media&token=fd00e413-2973-479d-a4c4-223f4aef4471 "handle_drive.py")
 
 The main file imports these 3 functions from handle_drive.py.
 
-![main.py](https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fworkspaces%2FIB3s5wNkgKm7chnP27Ld%2FHvvqJbF432aCRiurlpPoqLyf2qh1%2F---figure---sL8_95fPLSZfUi4MtNrSv---figure---lWXkYRSH0sp6OeQ01WebCw.svg?alt=media&token=c39e039a-9e0c-4569-8ddf-2c022dd27c87 "main.py")
+![main.py](https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fworkspaces%2FIB3s5wNkgKm7chnP27Ld%2FHvvqJbF432aCRiurlpPoqLyf2qh1%2F---figure---ImzEjpfZxIodnCvLxt6Fb---figure---lWXkYRSH0sp6OeQ01WebCw.svg?alt=media&token=0604badb-7fbd-4e09-b2ef-cc5d7e17269f "main.py")
 
 
 
@@ -33,7 +33,7 @@ Currently, the script is hosted on a free hosting service. This may prove diffic
 
 ## Webhook functionality
 Webhooks essentially allow the bot to wait for updates from telegram, instead of constantly checking for new messages.
-This allows the app to use less resources in the hosting service and bypass some limitations raised by the free plan of the hosting service.
+This allows the app to use less resources in the hosting service.
 
 ## How can I contribute?
 I am always looking to add more usefull functions to the bot. Feel free to clone this repository to your machine and expirement with it. If you managed to create additional functions, contact me and we can work together on implementing them.
