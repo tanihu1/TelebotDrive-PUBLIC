@@ -40,7 +40,7 @@ I am always looking to add more usefull functions to the bot. Feel free to clone
 **Be aware that in this build, no API keys are present and the required credentials.json file does not exist as well, thus running the main file will result in an error. If you want to test the file for development purposees, I can supply you with a testing bot API key.**
 
 ### Which file should I work on?
-As you may have noticed, there are to instances of the bot in the repository: **"bot_with_flask"**, and **"bot_with_polling"**.
+As you may have noticed, there are two instances of the bot in the repository: **"bot_with_flask"**, and **"bot_with_polling"**.
 As far as functionality goes, they are the same. The key difference is that the flask bot as webhook logic implemented, and the polling bot has polling logic implemented.
 
 If you want to test the bot on your local machine, you should work with the **polling bot**, since you can just fire it up with an API key and it will start responding.
