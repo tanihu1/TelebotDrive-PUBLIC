@@ -4,7 +4,7 @@
 ### Pre-Prepared Answers
 The bot has multiple pre-prepared answers that it can provide, such as relevant contact information, public transport inside the campus, and more. These answers are set to be sent when the corresponding command is received and the code behind it is simple.
 
-Currently, the bot has one functionality that is worth explaining in more detail: accessing the drive and sending files based on user request. We'll cover that on the next part.
+Currently, the bot has one functionality that is worth explaining in more detail: accessing the drive and sending files based on user request. We'll cover that in the next part.
 
 ### The drive function
 The bot imports functions from handle_drive.py that enables it to access google drive using the google drive API provided by google. The bot is set to access a specifc folder that I host on my personal drive account. This folder is an exact copy of the Bar Ilan offical Computer Science drive. In the future, provided that the student council will allow my drive service account access to the drive folder, the bot would gain access to the files in real time (currently I need to update the changes).
